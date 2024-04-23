@@ -14,6 +14,9 @@
     |- assets                       --- This contains the pickle file
         |- hashtag_pipeline.pkl
         |- text_pipeline.pkl
+        |- img                      --- Contains image of the wordcloud for stressed and non stressed
+            |- output_notstressed.png
+            |- output_stressed.png
     |- data
         |- twitter_stress.xlsx      --- Contains the dataset used in this project [/kaggle/input/stress-detection-from-social-media-articles/Twitter_Full.csv]
     |- .gitignore
@@ -29,3 +32,9 @@ Post the vectorization I used AdaBoostClassifier with LogisticRegression as the 
 
 
 ![Equation](https://latex.codecogs.com/svg.latex?\log%20\left(%20\frac{p(y=1)}{1-p(y=1)}%20\right)%20=%20\beta_0%20+%20\beta_1%20x_1%20+%20\beta_2%20x_2%20+%20\ldots%20+%20\beta_n%20x_n)
+
+## Output
+
+![alt text](https://github.com/kamal-dev/is-stress/blob/main/assets/img/output_notstressed.png)
+
+![alt text](https://github.com/kamal-dev/is-stress/blob/main/assets/img/output_stressed.png)
